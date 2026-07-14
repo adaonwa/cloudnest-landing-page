@@ -184,3 +184,63 @@ footer {
     }
 
 }
+* Features and Pricing Responsive Grid */
+
+/* Mobile first */
+.features-grid,
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Tablet - 640px and above */
+@media (min-width: 640px) {
+
+    .features-grid,
+    .pricing-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Desktop - 1024px and above */
+@media (min-width: 1024px) {
+
+    .features-grid,
+    .pricing-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+* Features and Pricing Responsive Grid */
+
+/* Mobile first */
+.features-grid,
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Tablet - 640px and above */
+@media (min-width: 640px) {
+
+    .features-grid,
+    .pricing-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Desktop - 1024px and above */
+@media (min-width: 1024px) {
+
+    .features-grid,
+    .pricing-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
