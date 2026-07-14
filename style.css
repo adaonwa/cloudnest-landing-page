@@ -139,3 +139,48 @@ footer {
         text-align: center;
     }
 }
+/* Mobile Navigation - Hamburger Menu */
+
+#menutoggle {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navmenu {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#menutoggle:checked ~ .navmenu {
+    display: flex;
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+
+    .navmenu {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+
+    .navmenu {
+        gap: 35px;
+    }
+
+}
